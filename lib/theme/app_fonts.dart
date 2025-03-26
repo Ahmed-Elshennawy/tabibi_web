@@ -2,6 +2,9 @@ import 'package:flutter/widgets.dart';
 import 'app_colors.dart';
 
 abstract class AppStyles {
+  ////////////////////
+  ///HOME PAGE
+  ////////////////////
   // Medium 24 - Primary Blue
   static const TextStyle styleMeduim24 = TextStyle(
     color: AppColors.primaryBlue,
@@ -187,4 +190,30 @@ abstract class AppStyles {
     fontFamily: 'Roboto',
     fontWeight: FontWeight.w500,
   );
+
+  ////////////////////
+  ///HOME PAGE
+  ////////////////////
+  static const TextStyle styleBold32 = TextStyle(
+    color: AppColors.primaryBlack,
+    fontSize: 32,
+    fontFamily: 'Roboto',
+    fontWeight: FontWeight.w700,
+  );
+  
+  static const TextStyle styleSemiBold15 = TextStyle(
+    color: AppColors.primaryBlack,
+    fontSize: 15,
+    fontFamily: 'Roboto',
+    fontWeight: FontWeight.w600,
+  );
+  
+  static const TextStyle styleSemiBold18 = TextStyle(
+    color: AppColors.titleField,
+    fontSize: 18,
+    fontFamily: 'Roboto',
+    fontWeight: FontWeight.w600,
+  );
+  
+
 }

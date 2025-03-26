@@ -22,6 +22,10 @@ class Assets {
   /// assets/images/footerDoc.svg
   static const String imagesFooterDoc = "assets/images/footerDoc.svg";
 
+  /// Assets for imagesLoginView
+  /// assets/images/loginView.png
+  static const String imagesLoginView = "assets/images/loginView.png";
+
   /// Assets for imagesLogo
   /// assets/images/logo.png
   static const String imagesLogo = "assets/images/logo.png";
@@ -57,6 +61,10 @@ class Assets {
   /// Assets for imagesSignBack
   /// assets/images/signBack.svg
   static const String imagesSignBack = "assets/images/signBack.svg";
+
+  /// Assets for imagesSignUpView
+  /// assets/images/signUpView.png
+  static const String imagesSignUpView = "assets/images/signUpView.png";
 
   /// Assets for imagesTABIBI
   /// assets/images/TABIBI.svg

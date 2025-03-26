@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:tabibi_web/Home/presentation/screens/home_patient_screen.dart';
+import 'package:tabibi_web/authentication/presentation/screens/sign_in/sign_in_screen.dart';
 
 void main() {
   runApp(const TabibiWeb());
 }
-
 
 class TabibiWeb extends StatelessWidget {
   const TabibiWeb({super.key});
@@ -19,7 +18,7 @@ class TabibiWeb extends StatelessWidget {
       builder: (context, child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: const HomePatientScreen(),
+          home: const SignInScreen(),
         );
       },
     );
